@@ -1,4 +1,4 @@
-function addToCart(quantity,productName="Elma") {
+  function addToCart(quantity,productName="Elma") {
     console.log("Sepete eklendi : ürün : " 
     + productName + " adet : " + quantity)
 }
@@ -29,6 +29,7 @@ addToCart2("Limon",3,15)
 
 let product1 = {productName:"Elma", unitPrice:10, quantity:5}
 
+//product'ı obje şeklinde tanımlarız. Parametre sırası karmaşasını önler
 function addToCart3(product) {
     console.log("Ürün : "+product.productName)
     console.log("Adet : "+product.quantity)
@@ -43,12 +44,14 @@ let product3 = {productName:"Elma", unitPrice:10, quantity:5}
 product2 = product3
 product2.productName = "KARPUZ"
 console.log(product3.productName)
+//Yukarıdaki durumda çıktı "elma" olarak çıkar  
 
 let sayi1 = 10
 let sayi2 = 20
 sayi1 = sayi2
 sayi2 = 100
 console.log(sayi1)
+//çıktı 20 dir
 
 function addToCart4(products) {
     console.log(products)

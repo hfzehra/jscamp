@@ -58,7 +58,7 @@ let showProducts = function (id,...products) {
 let points =[1,2,56,12,89,45,3]
 console.log(...points) //spread işlemi yaptı
 console.log(Math.max(...points))  //yukardaki işlemin spread şeklinde yapılmasıdır
-console.log(..."ABC","D")
+console.log(..."ABC","D") 
 
 //Destructuring -> Elimizdeki arrayin değerini değişikenlere atama yöntemidir
 //kelime anlamı parçalamaktır
